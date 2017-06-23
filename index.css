@@ -1,8 +1,16 @@
+.navbar{
+  background-color: black;
+  opacity: 0.75;
+  position: fixed;
+  width: 100%;
+}
+
 .navbar-nav.navbar-right{
   float:right;
   padding-left: 75%;
 }
 
+/*Landing Page*/
 .landing{
   background-image: url(img/header-background.jpg);
   width: 100%;
@@ -16,4 +24,8 @@
   padding-top: 10%;
   color: white;
   font-size: 50px;
+  opacity: 0;
 }
+
+
+/*Footer*/
